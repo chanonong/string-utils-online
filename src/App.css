@@ -2,6 +2,39 @@
   text-align: center;
 }
 
+
+#full-width {
+  padding: 0;
+  /* overflow: hidden; */
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.position-unset {
+  position: unset;
+}
+
+#feature-panel {
+  background: darkcyan;
+  height: 100vh;
+}
+
+#source-panel {
+  background: red;
+  height: 80vh;
+}
+
+#output-panel {
+  background: blue;
+  height: 80vh;
+}
+
+#operations-panel {
+  background: greenyellow;
+  height: 20vh;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
