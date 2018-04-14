@@ -11,6 +11,10 @@
   max-width: 100%;
 }
 
+.zero-border-radius {
+   border-radius: 0px;
+}
+
 .position-unset {
   position: unset;
 }
@@ -31,7 +35,7 @@
 }
 
 #operations-panel {
-  background: greenyellow;
+  background: darkslategray;
   height: 20vh;
 }
 
